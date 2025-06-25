@@ -1,0 +1,68 @@
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.rules {
+  font-size: 25px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
+  position: fixed;
+  z-index: 69;;
+  top: 50%; left: 50%; transform: translate(-50%, -100%);
+}
+
+.rulesButton {
+  margin-bottom: 25px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border-color: black;
+  border-style: solid;
+  margin-right: 5px;
+  margin-left: 2px;
+  text-transform: uppercase;
+}
+
+.box.correct {
+  background-color: green;
+}
+
+.box.wrongPlace {
+  background-color: yellow;
+}
+
+.box.incorrect {
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.won {
+  color: rgb(0, 255, 0);
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.lost {
+  color: rgb(225, 0, 255);
+  font-size: 100px;
+  margin-top: 20px;
+}
